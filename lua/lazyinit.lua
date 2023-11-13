@@ -77,8 +77,11 @@ require('lualine').setup({
     "yaocccc/nvim-hlchunk",-- {}区间高亮
     "yaocccc/vim-comment", -- 快速注释
     "yaocccc/vim-surround",-- 快速包裹内容
+    "mfussenegger/nvim-dap",
+     "rcarriga/nvim-dap-ui",
+    "theHamsta/nvim-dap-virtual-text"--debug
 }
-local opts = {} -- 注意要定义这个变量
+ opts = {} -- 注意要定义这个变量
 
 require("lazy").setup(plugins, opts)
 
